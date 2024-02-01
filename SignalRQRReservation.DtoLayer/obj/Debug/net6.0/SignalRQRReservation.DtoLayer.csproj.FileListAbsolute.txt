@@ -1,0 +1,12 @@
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.DtoLayer\bin\Debug\net6.0\SignalRQRReservation.DtoLayer.deps.json
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.DtoLayer\bin\Debug\net6.0\SignalRQRReservation.DtoLayer.dll
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.DtoLayer\bin\Debug\net6.0\SignalRQRReservation.DtoLayer.pdb
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.DtoLayer\obj\Debug\net6.0\SignalRQRReservation.DtoLayer.csproj.AssemblyReference.cache
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.DtoLayer\obj\Debug\net6.0\SignalRQRReservation.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.DtoLayer\obj\Debug\net6.0\SignalRQRReservation.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.DtoLayer\obj\Debug\net6.0\SignalRQRReservation.DtoLayer.AssemblyInfo.cs
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.DtoLayer\obj\Debug\net6.0\SignalRQRReservation.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.DtoLayer\obj\Debug\net6.0\SignalRQRReservation.DtoLayer.dll
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.DtoLayer\obj\Debug\net6.0\refint\SignalRQRReservation.DtoLayer.dll
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.DtoLayer\obj\Debug\net6.0\SignalRQRReservation.DtoLayer.pdb
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.DtoLayer\obj\Debug\net6.0\ref\SignalRQRReservation.DtoLayer.dll

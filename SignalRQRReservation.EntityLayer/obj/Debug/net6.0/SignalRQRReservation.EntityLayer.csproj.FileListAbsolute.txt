@@ -1,0 +1,12 @@
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.EntityLayer\bin\Debug\net6.0\SignalRQRReservation.EntityLayer.deps.json
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.EntityLayer\bin\Debug\net6.0\SignalRQRReservation.EntityLayer.dll
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.EntityLayer\bin\Debug\net6.0\SignalRQRReservation.EntityLayer.pdb
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.EntityLayer\obj\Debug\net6.0\SignalRQRReservation.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.EntityLayer\obj\Debug\net6.0\SignalRQRReservation.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.EntityLayer\obj\Debug\net6.0\SignalRQRReservation.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.EntityLayer\obj\Debug\net6.0\SignalRQRReservation.EntityLayer.AssemblyInfo.cs
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.EntityLayer\obj\Debug\net6.0\SignalRQRReservation.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.EntityLayer\obj\Debug\net6.0\SignalRQRReservation.EntityLayer.dll
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.EntityLayer\obj\Debug\net6.0\refint\SignalRQRReservation.EntityLayer.dll
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.EntityLayer\obj\Debug\net6.0\SignalRQRReservation.EntityLayer.pdb
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.EntityLayer\obj\Debug\net6.0\ref\SignalRQRReservation.EntityLayer.dll

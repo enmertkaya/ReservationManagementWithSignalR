@@ -1,0 +1,17 @@
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\bin\Debug\net6.0\SignalRQRReservation.BusinessLayer.deps.json
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\bin\Debug\net6.0\SignalRQRReservation.BusinessLayer.dll
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\bin\Debug\net6.0\SignalRQRReservation.BusinessLayer.pdb
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\bin\Debug\net6.0\SignalRQRReservation.DataAccessLayer.dll
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\bin\Debug\net6.0\SignalRQRReservation.EntityLayer.dll
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\bin\Debug\net6.0\SignalRQRReservation.DataAccessLayer.pdb
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\bin\Debug\net6.0\SignalRQRReservation.EntityLayer.pdb
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\obj\Debug\net6.0\SignalRQRReservation.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\obj\Debug\net6.0\SignalRQRReservation.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\obj\Debug\net6.0\SignalRQRReservation.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\obj\Debug\net6.0\SignalRQRReservation.BusinessLayer.AssemblyInfo.cs
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\obj\Debug\net6.0\SignalRQRReservation.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\obj\Debug\net6.0\SignalRQRReservation.BusinessLayer.csproj.CopyComplete
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\obj\Debug\net6.0\SignalRQRReservation.BusinessLayer.dll
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\obj\Debug\net6.0\refint\SignalRQRReservation.BusinessLayer.dll
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\obj\Debug\net6.0\SignalRQRReservation.BusinessLayer.pdb
+C:\Users\enesm\OneDrive\Masaüstü\SignalRQRReservation\SignalRQRReservation.BusinessLayer\obj\Debug\net6.0\ref\SignalRQRReservation.BusinessLayer.dll
