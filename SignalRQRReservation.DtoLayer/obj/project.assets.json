@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\enesm\\OneDrive\\Masaüstü\\Repos\\SignalRQRReservation.DtoLayer\\SignalRQRReservation.DtoLayer.csproj",
+      "projectUniqueName": "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservation.DtoLayer\\SignalRQRReservation.DtoLayer.csproj",
       "projectName": "SignalRQRReservation.DtoLayer",
-      "projectPath": "C:\\Users\\enesm\\OneDrive\\Masaüstü\\Repos\\SignalRQRReservation.DtoLayer\\SignalRQRReservation.DtoLayer.csproj",
+      "projectPath": "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservation.DtoLayer\\SignalRQRReservation.DtoLayer.csproj",
       "packagesPath": "C:\\Users\\enesm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\enesm\\OneDrive\\Masaüstü\\Repos\\SignalRQRReservation.DtoLayer\\obj\\",
+      "outputPath": "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservation.DtoLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6JnDGDBZNewFzZbgjzCpBhJI1J8H7jF18iNIMFSutmcoTWNUALa8NNreIS0TLrqGD7q1LOARSMqQZxTxKSff6g==",
+  "dgSpecHash": "EbpyCstk6svWS1yyie2bn/lAmkdWrBXW+tPttNtGevhXSOCGD2baGoK4iFUMBoIOl4hzXp7rgipU0V0Fo4bJBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\enesm\\OneDrive\\Masaüstü\\Repos\\SignalRQRReservation.EntityLayer\\SignalRQRReservation.EntityLayer.csproj",
+  "projectFilePath": "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservation.EntityLayer\\SignalRQRReservation.EntityLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

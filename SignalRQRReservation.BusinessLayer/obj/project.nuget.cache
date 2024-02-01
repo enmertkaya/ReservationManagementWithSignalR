@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZZ89uWR5LtuflJdFo+/7ZzctOHgx2WUdbtjbgitzGMcotiSrvT18TcOQ1E9NK3hk+GhZYeIeLW/q2rhICfM1jg==",
+  "dgSpecHash": "anGoL3VE6vJnKvdVAqRfVoCMUEoX6Y5joxT+gaAvwler5NPMcXgHHBf/7vYKhx3GnXc3o453Li5D2tjw5Gj2Yg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\enesm\\OneDrive\\Masaüstü\\Repos\\SignalRQRReservation.BusinessLayer\\SignalRQRReservation.BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservation.BusinessLayer\\SignalRQRReservation.BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\enesm\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\enesm\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

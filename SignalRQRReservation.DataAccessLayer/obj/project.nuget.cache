@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ry4GNZJGNVoccOSe2IG7xrzHMJT6Si4Xe3HAGAwoiRIutzb0yfG3yOWgZSky/t5QHZ7xL+OHb86e6sXqqRl+dg==",
+  "dgSpecHash": "IMStDlLJF7ngAUY9cZEiO4Lnn3aIGrZ2AMBF4WYJvGfewpKgJuoDm2Soo/rjpPJ8i+p1g1Fq8xFK8aOk0ZJ3Dg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\enesm\\OneDrive\\Masaüstü\\Repos\\SignalRQRReservation.DataAccessLayer\\SignalRQRReservation.DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservation.DataAccessLayer\\SignalRQRReservation.DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\enesm\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\enesm\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

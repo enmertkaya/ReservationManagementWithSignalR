@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\enesm\\OneDrive\\Masaüstü\\Repos\\SignalRQRReservation.EntityLayer\\SignalRQRReservation.EntityLayer.csproj": {}
+    "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservation.EntityLayer\\SignalRQRReservation.EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\enesm\\OneDrive\\Masaüstü\\Repos\\SignalRQRReservation.EntityLayer\\SignalRQRReservation.EntityLayer.csproj": {
+    "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservation.EntityLayer\\SignalRQRReservation.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\enesm\\OneDrive\\Masaüstü\\Repos\\SignalRQRReservation.EntityLayer\\SignalRQRReservation.EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservation.EntityLayer\\SignalRQRReservation.EntityLayer.csproj",
         "projectName": "SignalRQRReservation.EntityLayer",
-        "projectPath": "C:\\Users\\enesm\\OneDrive\\Masaüstü\\Repos\\SignalRQRReservation.EntityLayer\\SignalRQRReservation.EntityLayer.csproj",
+        "projectPath": "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservation.EntityLayer\\SignalRQRReservation.EntityLayer.csproj",
         "packagesPath": "C:\\Users\\enesm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\enesm\\OneDrive\\Masaüstü\\Repos\\SignalRQRReservation.EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservation.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
