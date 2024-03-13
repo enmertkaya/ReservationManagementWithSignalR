@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SignalRQRReservation.BusinessLayer</id>
+    <version>1.0.0</version>
+    <authors>SignalRQRReservation.BusinessLayer</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="SignalRQRReservation.DataAccessLayer" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\enesm\OneDrive\Belgeler\GitHub\ReservationManagementWithSignalR\SignalRQRReservation.BusinessLayer\bin\Debug\net6.0\SignalRQRReservation.BusinessLayer.dll" target="lib\net6.0\SignalRQRReservation.BusinessLayer.dll" />
+  </files>
+</package>

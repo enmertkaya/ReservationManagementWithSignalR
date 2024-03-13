@@ -9,5 +9,6 @@ namespace SignalRQRReservation.DataAccessLayer.Abstract
 {
     public interface ITestimonialDal :IGenericDal <Testimonial>
     {
+
     }
 }

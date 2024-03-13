@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SignalRQRReservation.EntityLayer.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SignalRQRReservation.DataAccessLayer.Abstract
 {
-    public interface ISocialMediaDal : IGenericDal <ISocialMediaDal>
+    public interface ISocialMediaDal : IGenericDal <SocialMedia>
     {
     }
 }
