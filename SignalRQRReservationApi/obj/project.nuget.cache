@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "VXUxJmUGKbjIqF83SoMm2TWNbVHV6Ke8ZPftCQ85IzgHDMcPLNfjB7qxA7Xcg1TXqYfYMk+4JA9pb2ZVszsNXg==",
+  "dgSpecHash": "MR/iSgzlTGmfrCv2ngAntGkDb3FG4zZvZ6DyBDz4xoyushORghpV2vVzC2ftWjcdNi7qik/ha8U/KdOw4Ht6fw==",
   "success": true,
   "projectFilePath": "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservationApi\\SignalRQRReservationApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\enesm\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\enesm\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\enesm\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\enesm\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\enesm\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -22,7 +24,7 @@
     "C:\\Users\\enesm\\.nuget\\packages\\microsoft.aspnetcore.identity\\2.2.0\\microsoft.aspnetcore.identity.2.2.0.nupkg.sha512",
     "C:\\Users\\enesm\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.21\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.21.nupkg.sha512",
     "C:\\Users\\enesm\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
-    "C:\\Users\\enesm\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\enesm\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\enesm\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\enesm\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\enesm\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.21\\microsoft.entityframeworkcore.6.0.21.nupkg.sha512",

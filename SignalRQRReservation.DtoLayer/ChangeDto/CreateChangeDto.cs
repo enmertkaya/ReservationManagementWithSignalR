@@ -13,7 +13,6 @@ namespace SignalRQRReservation.DtoLayer.ChangeDto
         public string Description { get; set; }
         public DateTime Date { get; set; }
         public string ImageURL { get; set; }
-        public Category Category { get; set; }
         public int CategoryID { get; set; }
     }
 }
