@@ -76,7 +76,7 @@ namespace SignalRQRReservationApi.Controllers
                 SocialMedia = updateAboutDto.SocialMedia,
                 Title1 = updateAboutDto.Title1,
                 Title1Description = updateAboutDto.Title1Description,
-                Title2 = updateAboutDto.Title2,
+                Title2 = updateAboutDto.Title2, 
                 Title2Description = updateAboutDto.Title2Description,
                 Title2MiniDescription = updateAboutDto.Title2MiniDescription
             };
