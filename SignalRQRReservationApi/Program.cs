@@ -29,6 +29,15 @@ builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();
 builder.Services.AddScoped<IChangeService, ChangeManager>();
 builder.Services.AddScoped<IChangeDal, EfChangeDal>();
 
+builder.Services.AddScoped<IHomePageService, HomePageManager>();
+builder.Services.AddScoped<IHomePageDal, EfHomePageDal>();
+
+builder.Services.AddScoped<ISocialMediaService, SocialMediaManager>();
+builder.Services.AddScoped<ISocialMediaDal, EfSocialMediaDal>();
+
+builder.Services.AddScoped<ITestimonialService, TestimonialManager>();
+builder.Services.AddScoped<ITestimonialDal, EfTestimonialDal>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
