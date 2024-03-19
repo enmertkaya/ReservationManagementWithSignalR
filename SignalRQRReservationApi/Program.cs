@@ -26,6 +26,9 @@ builder.Services.AddScoped<IBookingDal, EfBookingDal>();
 builder.Services.AddScoped<ICategoryService, CategoryManager>();
 builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();
 
+builder.Services.AddScoped<IChangeService, ChangeManager>();
+builder.Services.AddScoped<IChangeDal, EfChangeDal>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -57,5 +57,13 @@ namespace SignalRQRReservationApi.Controllers
             });
             return Ok("Kategori Güncellendi");
         }
+
+        [HttpDelete]
+        public IActionResult DeleteCategory(int id)
+        {
+            var value = _categoryService.TGetByID(id);
+            _categoryService.TDelete(value);
+            return Ok("Kategori Bilgisi Silindi");
+        }
     }
 }
