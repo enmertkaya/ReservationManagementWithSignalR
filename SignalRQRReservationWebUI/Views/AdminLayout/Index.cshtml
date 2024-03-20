@@ -1,11 +1,29 @@
-﻿
-@{
-    Layout = null;
+﻿@{
+	Layout = null;
 }
 
-<h1>Burası Deneme Layout</h1>
-<br />
+<!DOCTYPE html>
+<html>
+@await Component.InvokeAsync("_LayoutHeaderPartialComponent")
+<body>
+	<div class="wrapper">
+		@await Component.InvokeAsync("_LayoutNavbarComponentPartial")
+		@await Component.InvokeAsync("_LayoutSidebarComponentPartial")
 
-@await Component.InvokeAsync("_LayoutHeaderPartialComponent");
+		<div class="main-panel">
+			@RenderBody()
 
-@RenderBody()
+			@await Component.InvokeAsync("_LayoutFooterComponentPartial")
+		</div>
+	</div>
+	@await Component.InvokeAsync("_LayoutScriptComponentPartial")
+
+	<!-- Modal -->
+
+
+
+</body>
+</html>
+
+
+

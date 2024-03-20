@@ -1,0 +1,80 @@
+﻿<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+
+<div class="main-header">
+
+	<script type="text/javascript">
+		$(document).ready(() => {
+			var connection = new signalR.HubConnectionBuilder().withUrl(" ").build();
+			$("#connstatus").text(connection.state);
+			connection.start().then(() => {
+				$("#connstatus").text(connection.state);
+				setInterval(() => {
+					connection.invoke("SendNotification");
+
+				}, 1000);
+
+
+			}).catch((err) => { console.log(err) });
+
+			connection.on("ReceiveNotificationCountByFalse", (value) => {
+				$("#notificationcount").text(value);
+			});
+
+
+			connection.on("ReceiveNotificationListByFalse", (value) => {
+				console.log(value);
+				$("#notilist").empty();
+				for(var i=0 ; i<value.length; i++)
+				{
+					$("#notilist").append(`	<a href="#" >
+											<div class="${value[i].type}"><i class="${value[i].icon}"></i></div>
+											<div class="notif-content">
+											<span class="block">
+											${value[i].description}
+											</span>
+											<span class="time">${value[i].date}</span>
+											</div>
+											</a>
+										  `)
+				};
+			});
+			//<a href="#" >
+			//	<div class="notif-icon notif-primary" > <i class="la la-user-plus" > </i> </div >
+			//		<div class="notif-content" >
+			//			<span class="block" >
+			//				New user registered
+			//					< /span>
+			//					< span class="time" > 5 minutes ago < /span>
+			//						< /div>
+			//						< /a>
+
+		});
+	</script>
+
+	<div class="logo-header">
+		<a href="index.html" class="logo">
+			Real Time Admin
+		</a>
+		<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<button class="topbar-toggler more"><i class="la la-ellipsis-v"></i></button>
+	</div>
+	<nav class="navbar navbar-header navbar-expand-lg">
+		<div class="container-fluid">
+
+			<form class="navbar-left navbar-form nav-search mr-md-3" action="">
+				<div class="input-group">
+					<input type="text" placeholder="Aranacak Kelime ..." class="form-control">
+					<div class="input-group-append">
+						<span class="input-group-text">
+							<i class="la la-search search-icon"></i>
+						</span>
+					</div>
+				</div>
+			</form>
+			<ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+				<li class="nav-item drop6
