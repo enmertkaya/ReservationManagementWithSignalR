@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Text;
 
 namespace SignalRQRReservationWebUI.Controllers
 {
@@ -26,5 +27,27 @@ namespace SignalRQRReservationWebUI.Controllers
 			}
 			return View();
 		}
+
+		[HttpGet]
+		public IActionResult CreateCategory()
+		{
+			return View();
+		}
+
+		[HttpPost]
+		public async Task<IActionResult> CreateCategory(Dtos.CategoryDtos.CreateCategoryDto createCategoryDto)
+		{
+			createCategoryDto.Status = true;
+			var client = _httpClientFactory.CreateClient();
+			var jsonData = JsonConvert.SerializeObject(createCategoryDto);
+			StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+			var responseMessage = await client.PostAsync("https://localhost:7018/api/Category", stringContent);
+			if (responseMessage.IsSuccessStatusCode)
+			{
+				return RedirectToAction("Index");
+			}
+			return View();
+		}
+
 	}
 }
