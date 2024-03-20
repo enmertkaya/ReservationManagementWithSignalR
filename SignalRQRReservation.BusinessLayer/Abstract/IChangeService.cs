@@ -9,6 +9,6 @@ namespace SignalRQRReservation.BusinessLayer.Abstract
 {
     public interface IChangeService : IGenericService <Change>
     {
-
+        List<Change> TGetChangeWithCategories();
     }
 }

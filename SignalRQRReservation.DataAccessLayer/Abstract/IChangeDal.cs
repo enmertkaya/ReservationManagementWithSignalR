@@ -9,5 +9,6 @@ namespace SignalRQRReservation.DataAccessLayer.Abstract
 {
     public interface IChangeDal : IGenericDal <Change>
     {
+        List<Change> GetChangeWithCategories();
     }
 }

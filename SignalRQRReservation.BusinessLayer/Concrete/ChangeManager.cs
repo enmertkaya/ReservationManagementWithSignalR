@@ -33,6 +33,11 @@ namespace SignalRQRReservation.BusinessLayer.Concrete
             return _changeDal.GetByID(id);
         }
 
+        public List<Change> TGetChangeWithCategories()
+        {
+            return _changeDal.GetChangeWithCategories();
+        }
+
         public List<Change> TGetListAll()
         {
             return _changeDal.GetListAll();

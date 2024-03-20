@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SignalRQRReservation.BusinessLayer.Abstract;
+using SignalRQRReservation.DataAccessLayer.Concrete;
 using SignalRQRReservation.DtoLayer.CategoryDto;
 using SignalRQRReservation.DtoLayer.ChangeDto;
 using SignalRQRReservation.EntityLayer.Entities;
@@ -76,6 +78,22 @@ namespace SignalRQRReservationApi.Controllers
             return  Ok(value);
         }
 
-        
+        [HttpGet("ChangeListWithCategory")]
+        public IActionResult ChangeListWithCategory ()
+        {
+            var context = new SignalRQRReservationContext();
+            var values = context.Changes.Include(x => x.Category).Select(y => new ResultChangeWithCategory
+            {
+                CategoryName = y.Category.CategoryName,
+                Date = y.Date,
+                Description = y.Description,
+                ImageURL= y.ImageURL,
+                Title1 =y.Title1,
+                Title2 =y.Title2
+            });
+            return Ok(values.ToList());
+        }
+
+
     }
 }

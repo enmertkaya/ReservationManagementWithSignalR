@@ -13,6 +13,8 @@ namespace SignalRQRReservationApi.Mapping
             CreateMap<Change, GetChangeDto>().ReverseMap();
             CreateMap<Change, UpdateChangeDto>().ReverseMap();
             CreateMap<Change, CreateChangeDto>().ReverseMap();
+            CreateMap<Change, ResultChangeWithCategory>().ReverseMap();
+
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using SignalRQRReservation.DataAccessLayer.Abstract;
+﻿using Microsoft.EntityFrameworkCore;
+using SignalRQRReservation.DataAccessLayer.Abstract;
 using SignalRQRReservation.DataAccessLayer.Concrete;
 using SignalRQRReservation.DataAccessLayer.Repositories;
 using SignalRQRReservation.EntityLayer.Entities;
@@ -14,6 +15,13 @@ namespace SignalRQRReservation.DataAccessLayer.EntityFramework
     {
         public EfChangeDal(SignalRQRReservationContext context) : base(context)
         {
+        }
+
+        public List<Change> GetChangeWithCategories()
+        {
+            var context = new SignalRQRReservationContext();
+            var values = context.Changes.Include(x=>x.Category).ToList();
+            return values;
         }
     }
 }

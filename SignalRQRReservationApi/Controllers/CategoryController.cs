@@ -32,7 +32,7 @@ namespace SignalRQRReservationApi.Controllers
         {
             _categoryService.TAdd(new Category()
             {
-                Name= createCategoryDto.Name,
+                CategoryName = createCategoryDto.CategoryName,
                 Status = true 
             });
             return Ok("Kategori Eklendi");
@@ -52,7 +52,7 @@ namespace SignalRQRReservationApi.Controllers
             _categoryService.TUpdate(new Category()
             {
                 CategoryID = updateCategoryDto.CategoryID,
-                Name = updateCategoryDto.Name,
+                CategoryName = updateCategoryDto.CategoryName,
                 Status=updateCategoryDto.Status
             });
             return Ok("Kategori Güncellendi");
