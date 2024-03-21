@@ -16,5 +16,6 @@ namespace SignalRQRReservation.DtoLayer.ChangeDto
         public string ImageURL { get; set; }
         public int CategoryID { get; set; }
         public string CategoryName { get; set; }
-    }
+		public bool ChangeStatus { get; set; }
+	}
 }

@@ -15,5 +15,6 @@ namespace SignalRQRReservation.DtoLayer.ChangeDto
         public DateTime Date { get; set; }
         public string ImageURL { get; set; }
         public int CategoryID { get; set; }
-    }
+		public bool ChangeStatus { get; set; }
+	}
 }

@@ -10,5 +10,6 @@
         public string ImageURL { get; set; }
         public Category Category { get; set; }
         public int CategoryID { get; set; }
-    }
+		public bool ChangeStatus { get; set; }
+	}
 }
