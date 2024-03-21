@@ -39,8 +39,8 @@ namespace SignalRQRReservationApi.Controllers
         }
 
 
-        [HttpGet("GetCategory")]
-        public IActionResult GetCategory(int id)
+		[HttpGet("{id}")]
+		public IActionResult GetCategory(int id)
         {
             var value = _categoryService.TGetByID(id);
             return Ok(value);
@@ -58,7 +58,7 @@ namespace SignalRQRReservationApi.Controllers
             return Ok("Kategori Güncellendi");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteCategory(int id)
         {
             var value = _categoryService.TGetByID(id);
