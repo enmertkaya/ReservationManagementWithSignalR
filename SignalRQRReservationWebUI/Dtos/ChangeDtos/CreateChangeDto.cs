@@ -8,6 +8,7 @@
 		public DateTime Date { get; set; }
 		public string ImageURL { get; set; }
 		public int CategoryID { get; set; }
+		public int CategoryName { get; set; }
 		public bool ChangeStatus { get; set; }
 	}
 }
