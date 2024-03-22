@@ -9,7 +9,7 @@
 		public DateTime Date { get; set; }
 		public string ImageURL { get; set; }
 		public int CategoryID { get; set; }
-		public string CategoryName { get; internal set; }
+		public string CategoryName { get; set; }
 		public bool ChangeStatus { get; set; }
 	}
 }

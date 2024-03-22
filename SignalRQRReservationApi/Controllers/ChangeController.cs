@@ -63,7 +63,7 @@ namespace SignalRQRReservationApi.Controllers
             return Ok("Değişim Güncellendi");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteChange(int id)
         {
             var value= _changeService.TGetByID(id);
@@ -82,7 +82,7 @@ namespace SignalRQRReservationApi.Controllers
         public IActionResult ChangeListWithCategory ()
         {
             var context = new SignalRQRReservationContext();
-            var values = context.Changes.Include(x => x.Category).Select(y => new ResultChangeWithCategory
+            var values = context.Changes.Include(x => x.Category).Select(y => new ResultChangeWithCategoryDto
             {
                 CategoryName = y.Category.CategoryName,
                 Date = y.Date,

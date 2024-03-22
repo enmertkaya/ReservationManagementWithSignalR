@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SignalRQRReservation.DtoLayer.ChangeDto
 {
-    public class ResultChangeWithCategory
+    public class ResultChangeWithCategoryDto
     {
         public int ChangeID { get; set; }
         public string Title1 { get; set; }
