@@ -31,7 +31,7 @@ namespace SignalRQRReservationWebUI.Controllers
 		}
 
 		[HttpGet]
-		public async Task<IActionResult> CreateProduct()
+		public async Task<IActionResult> CreateChange()
 		{
 			var client = _httpClientFactory.CreateClient();
 			var responseMessage = await client.GetAsync("https://localhost:7018/api/Change");
@@ -48,7 +48,7 @@ namespace SignalRQRReservationWebUI.Controllers
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> CreateProduct(CreateChangeDto createChangeDto)
+		public async Task<IActionResult> CreateChange(CreateChangeDto createChangeDto)
 		{
 			createChangeDto.ChangeStatus = true;
 			var client = _httpClientFactory.CreateClient();
@@ -63,7 +63,7 @@ namespace SignalRQRReservationWebUI.Controllers
 			return View();
 		}
 
-		public async Task<IActionResult> DeleteProduct(int id)
+		public async Task<IActionResult> DeleteChange(int id)
 		{
 			var client = _httpClientFactory.CreateClient();
 			var responseMessage = await client.DeleteAsync($"https://localhost:7018/api/Change/{id}");
@@ -74,7 +74,7 @@ namespace SignalRQRReservationWebUI.Controllers
 			return View();
 		}
 		[HttpGet]
-		public async Task<IActionResult> UpdateProduct(int id)
+		public async Task<IActionResult> UpdateChange(int id)
 		{
 
 			var client1 = _httpClientFactory.CreateClient();
