@@ -1,0 +1,75 @@
+﻿@model List<SignalRQRReservationWebUI.Dtos.AboutDtos.ResultAboutDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Hakkımızda İşlemleri</h4>
+		<div class="row">
+			<div class="col-md-12">
+
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">Hakkımızda Listesi</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+							Hakkımızda alanıyla ilgili işlemleri yapabilirsiniz. Tema bütünlüğü için sadece 1 tane hakkımızda alanı oluşturmayı unutmayın.
+						</div>
+						<table class="table mt-3">
+							<thead>
+								<tr>
+									<th scope="col">Başlık1</th>
+									<th scope="col">Başlık 1 Açıklama</th>
+									<th scope="col">Başlık2</th>
+									<th scope="col">Başlık2 Kısa Açıklama</th>
+									<th scope="col">Doğum Günü</th>
+									<th scope="col">Web Site</th>
+									<th scope="col">Telefon</th>
+									<th scope="col">Şehir</th>
+									<th scope="col">Yaş</th>
+									<th scope="col">Eğitim</th>
+									<th scope="col">Mail</th>
+									<th scope="col">Deneyim</th>
+									<th scope="col">Açıklama</th>
+									<th scope="col">Foto</th>
+									<th scope="col">Sil</th>
+									<th scope="col">Güncelle</th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (var item in Model)
+								{
+									<tr>
+										<td>@item.Title1</td>
+										<td>@item.Title1Description</td>
+										<td>@item.Title2</td>
+										<td>@item.Title2MiniDescription</td>
+										<td>@item.Birthday</td>
+										<td>www.dytburcinyucel.com</td>
+										<td>@item.Phone</td>
+										<td>@item.Address</td>
+										<td>@item.Age</td>
+										<td>@item.Experience</td>
+										<td>@item.Description</td>
+										<td>@item.Mail</td>
+										<td>@item.Education</td>
+										<td>@item.ImageURL</td>
+										<td><a href="/About/DeleteAbout/@item.AboutID" class="btn btn-outline-danger">Sil</a></td>
+										<td><a href="/About/UpdateAbout/@item.AboutID" class="btn btn-outline-success">Güncelle</a></td>
+									</tr>
+								}
+							</tbody>
+						</table>
+						<a href="/About/CreateAbout/" class="btn btn-outline-primary">Yeni Hakkımda Yazısı Girişi</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+

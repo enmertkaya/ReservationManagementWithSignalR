@@ -1,0 +1,111 @@
+﻿@model SignalRQRReservationWebUI.Dtos.AboutDtos.CreateAboutDto
+
+@{
+    ViewData["Title"] = "CreateAbout";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <h4 class="page-title">Ana Sayfa Hakkımızda İşlemleri</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <form method="post">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">Yeni Hakkımızda Yazı Girişi</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Title1">Başlığı Giriniz</label>
+                                <input type="text" class="form-control" asp-for="Title1" id="Title1">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Title1Description">Başlık1 Açıklama</label>
+                                <input type="text" class="form-control" asp-for="Title1Description" id="Title1Description">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Title2">Başlık2</label>
+                                <input type="text" class="form-control" asp-for="Title2" id="Title2">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Title2MiniDescription">Başlık2 Kısa Açıklama</label>
+                                <input type="text" class="form-control" asp-for="Title2MiniDescription" id="Title2MiniDescription">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Birthday">Doğum Günü</label>
+                                <input type="text" class="form-control" asp-for="Birthday" id="Birthday">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Education">Web Sitesi</label>
+                                <input type="text" class="form-control" asp-for="Education" id="Education">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Phone">Telefon</label>
+                                <input type="text" class="form-control" asp-for="Phone" id="Phone">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Address">Şehir</label>
+                                <input type="text" class="form-control" asp-for="Address" id="Address">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Age">Yaş</label>
+                                <input type="text" class="form-control" asp-for="Age" id="Age">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Education">Eğitim</label>
+                                <input type="text" class="form-control" asp-for="Education" id="Education">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Mail">Mail</label>
+                                <input type="text" class="form-control" asp-for="Mail" id="Mail">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Mail">Deneyim</label>
+                                <input type="Education" class="form-control" asp-for="Education" id="Education">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Mail">Açıklama</label>
+                                <input type="Description" class="form-control" asp-for="Description" id="Description">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="ImageURL">Görselin Url'ini Giriniz</label>
+                                <input type="text" class="form-control" asp-for="ImageURL" id="ImageURL">
+                            </div>
+                        </div>
+                        <div class="card-action">
+                            <button class="btn btn-primary">Hakkımda Yazısını Ekle</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

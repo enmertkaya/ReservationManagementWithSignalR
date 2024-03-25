@@ -78,6 +78,7 @@ namespace SignalRQRReservationWebUI.Controllers
 		public async Task<IActionResult> UpdateChange(int id)
 		{
 
+			
 			var client1 = _httpClientFactory.CreateClient();
 			var responseMessage1 = await client1.GetAsync("https://localhost:7018/api/Change");
 			var jsonData1 = await responseMessage1.Content.ReadAsStringAsync();

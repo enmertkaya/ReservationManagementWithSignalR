@@ -38,7 +38,6 @@ namespace SignalRQRReservationApi.Controllers
                 ImageURL= createAboutDto.ImageURL,
                 Mail= createAboutDto.Mail,
                 Phone= createAboutDto.Phone,
-                SocialMedia= createAboutDto.SocialMedia,
                 Title1 = createAboutDto.Title1,
                 Title1Description= createAboutDto.Title1Description,
                 Title2 = createAboutDto.Title2,
@@ -50,7 +49,7 @@ namespace SignalRQRReservationApi.Controllers
             return Ok("Hakkımda kısmı başarılı bir şekilde eklendi");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteAbout (int id)
         {
             var values = _aboutService.TGetByID(id);
@@ -73,7 +72,6 @@ namespace SignalRQRReservationApi.Controllers
                 ImageURL = updateAboutDto.ImageURL,
                 Mail = updateAboutDto.Mail,
                 Phone = updateAboutDto.Phone,
-                SocialMedia = updateAboutDto.SocialMedia,
                 Title1 = updateAboutDto.Title1,
                 Title1Description = updateAboutDto.Title1Description,
                 Title2 = updateAboutDto.Title2, 
@@ -84,7 +82,7 @@ namespace SignalRQRReservationApi.Controllers
             return Ok("Hakkımda Alanı Güncellendi");
         }
 
-        [HttpGet("GetAbout")]
+        [HttpGet("{id}")]
         public IActionResult GetAbout(int id)
         {
             var value= _aboutService.TGetByID(id);

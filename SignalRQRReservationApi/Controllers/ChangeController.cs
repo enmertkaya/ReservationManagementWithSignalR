@@ -71,7 +71,7 @@ namespace SignalRQRReservationApi.Controllers
             return Ok("Degişim Sİlindi");
         }
 
-        [HttpGet("GetChange")]
+        [HttpGet("{id}")]
         public IActionResult GetChange (int id)
         {
             var value=_changeService.TGetByID(id);
@@ -86,6 +86,7 @@ namespace SignalRQRReservationApi.Controllers
             {
                 CategoryName = y.Category.CategoryName,
                 Date = y.Date,
+                ChangeID= y.ChangeID,
                 Description = y.Description,
                 ImageURL= y.ImageURL,
                 Title1 =y.Title1,

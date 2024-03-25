@@ -17,7 +17,6 @@ namespace SignalRQRReservation.DtoLayer.AboutDto
         public string Title2MiniDescription { get; set; }
         public string Title1Description { get; set; }
         public string Birthday { get; set; }
-        public string SocialMedia { get; set; }
         public string Phone { get; set; }
         public string Address { get; set; }
         public string Age { get; set; }
