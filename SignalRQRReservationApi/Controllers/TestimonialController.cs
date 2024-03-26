@@ -42,7 +42,7 @@ namespace SignalRQRReservationApi.Controllers
             return Ok("Yorum bilgisi eklendi");
         }
 
-        [HttpGet("GetTestimonial")]
+        [HttpGet("{id}")]
         public IActionResult GetSocialMedia(int id)
         {
             var value = _testimonialService.TGetByID(id);
@@ -64,7 +64,7 @@ namespace SignalRQRReservationApi.Controllers
             return Ok("Sosyal medya güncellendi");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteTestimonial (int id)
         {
             var value=_testimonialService.TGetByID(id);

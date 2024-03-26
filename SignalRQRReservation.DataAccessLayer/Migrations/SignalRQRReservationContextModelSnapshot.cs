@@ -66,10 +66,6 @@ namespace SignalRQRReservation.DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SocialMedia")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Title1")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

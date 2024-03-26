@@ -39,7 +39,7 @@ namespace SignalRQRReservationApi.Controllers
             return Ok("Sosyal medya bilgisi eklendi");
         }
 
-        [HttpGet("GetSocialMedia")]
+        [HttpGet("{id}")]
         public IActionResult GetSocialMedia (int id)
         {
             var value=_socialMediaService.TGetByID(id);
@@ -59,7 +59,7 @@ namespace SignalRQRReservationApi.Controllers
             return Ok("Sosyal medya güncellendi");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteSocialMedia (int id)
         {
             var value=_socialMediaService.TGetByID(id);

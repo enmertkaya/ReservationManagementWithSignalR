@@ -44,7 +44,7 @@ namespace SignalRQRReservationApi.Controllers
             return Ok("Ana Sayfa eklendi");
         }
 
-        [HttpGet("GetHomePage")]
+        [HttpGet("{id}")]
         public IActionResult GetHomePage (int id)
         {
             var value=_homePageService.TGetByID(id);
@@ -67,7 +67,7 @@ namespace SignalRQRReservationApi.Controllers
             return Ok("Ana sayfa güncellendi");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteHomePage (int id)
         {
             var value=_homePageService.TGetByID(id);

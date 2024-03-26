@@ -1,0 +1,62 @@
+﻿@model CreateHomePageDto
+@{
+    ViewData["Title"] = "CreateHomePage";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <h4 class="page-title">Ana Sayfa İşlemleri</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <form method="post">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">Yeni Ana Sayfa Ekleme Sayfası</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Title1">Başlık 1 </label>
+                                <input type="text" class="form-control" asp-for="Title1" id="Title1">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Descripton1">Açıklama 1</label>
+                                <input type="text" class="form-control" asp-for="Descripton1" id="Descripton1">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Title2">Başlık 2 </label>
+                                <input type="text" class="form-control" asp-for="Title2" id="Title2">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Descripton2">Açıklama 2</label>
+                                <input type="text" class="form-control" asp-for="Descripton2" id="Descripton2">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Title3">Başlık 3 </label>
+                                <input type="text" class="form-control" asp-for="Title3" id="Title3">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="Descripton3">Açıklama 3</label>
+                                <input type="text" class="form-control" asp-for="Descripton3" id="Descripton3">
+                            </div>
+                        </div>
+                        <div class="card-action">
+                            <button class="btn btn-primary">Ana Sayfa Kaydet</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
