@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+O4Ij6xarJcRJHiAx6vBTzkKzSEs7puSoZ/hgl27Sqc=",
+  "Hash": "gqmWFFewAvyoOmyxYlgOMEHToKr1Qt9c44CLJMUoFX4=",
   "Source": "SignalRQRReservationWebUI",
   "BasePath": "_content/SignalRQRReservationWebUI",
   "Mode": "Default",
@@ -3126,6 +3126,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservationWebUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "SourceId": "SignalRQRReservationWebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservationWebUI\\wwwroot\\",
+      "BasePath": "_content/SignalRQRReservationWebUI",
+      "RelativePath": "lib/microsoft/signalr/dist/browser/signalr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Identity": "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservationWebUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "SourceId": "SignalRQRReservationWebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservationWebUI\\wwwroot\\",
+      "BasePath": "_content/SignalRQRReservationWebUI",
+      "RelativePath": "lib/microsoft/signalr/dist/browser/signalr.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
     },
     {
       "Identity": "C:\\Users\\enesm\\OneDrive\\Belgeler\\GitHub\\ReservationManagementWithSignalR\\SignalRQRReservationWebUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\.DS_Store",
